@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Baca Kitab</h1>
+    <div class="container">
+    
+        <div class="salahbaca box">
+            <p class="text">Kesalahan Baca</p>
+            <p id="jumlahsalahbaca" class="number margintop0">0</p>
+        </div>
+        <div class="salahtanya box">
+            <p>Kesalahan Jawab</p>
+            <p id="jumlahsalahjawab" class="number margintop0">0</p>
+        </div>
+        
+        <div class="nilaibaca box">
+            <p class="text">Nilai Baca</p>
+            <p id="jumlahnilaibaca" class="number">100</p>
+        </div>
+        <div class="nilaitanya box">
+            <p class="text">Nilai Jawab</p>
+            <p id="jumlahnilaijawab" class="number">100</p>
+        </div>
+        
+        <div class="total">
+            <p class="text">TOTAL</p>
+            <p id="jumlahnilai" class="number">100</p>
+        </div>
+
+        <button id="tombolSalahBaca" class="btn" onclick="salahBaca()">salah baca</button>
+        <button id="tombolSalahTanya" class="btn" onclick="salahJawab()">salah tanya</button>
+        
+    </div>
+    <button id="reset" class="btn" onclick="reset()">Reset!</button>
+</body>
+
+<script src="./index.js"></script>
+</html>

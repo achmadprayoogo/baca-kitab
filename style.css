@@ -1,0 +1,102 @@
+html > body {
+    background-color: rgb(196, 196, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Atleet;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    width: 220px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+
+}
+
+.box {
+    background-color: rgb(154, 154, 235);
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.total {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(55, 188, 55);
+    width: 220px;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 100px;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: "Atleet";
+    letter-spacing: 2px;
+}
+
+#tombolSalahBaca {
+    background-color: rgb(228, 228, 66);
+    
+}
+
+#tombolSalahTanya {
+    background-color: rgb(204, 78, 166);
+}
+
+@font-face {
+    font-family: "Digital"; /* Nama font yang akan Anda gunakan dalam CSS */
+    src: url("./font/digital-7/digital-7.ttf") format("truetype"); /* Ganti path/to/ dengan lokasi file font Anda */
+}
+
+@font-face {
+    font-family: "atleet"; /* Nama font yang akan Anda gunakan dalam CSS */
+    src: url("./font/i_am_a_player/I\ AM\ A\ PLAYER.ttf") format("truetype"); /* Ganti path/to/ dengan lokasi file font Anda */
+}
+
+.number {
+    margin-top: 10px;
+    font-size: 55px;
+    font-family: "Digital", sans-serif;
+}
+
+p {
+    margin: 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.margintop0 {
+    margin-top: 0px;
+}
+
+#reset {
+    background-color: rgb(222, 61, 61);
+    margin-top: 10px;
+    font-size: 15px;
+}
